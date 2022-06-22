@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "notes",
+  "info": {
+    "singularName": "note",
+    "pluralName": "notes",
+    "displayName": "Note",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "recommendation": {
+      "type": "string"
+    },
+    "critique": {
+      "type": "text"
+    },
+    "critere": {
+      "type": "json"
+    },
+    "itemId": {
+      "type": "integer"
+    },
+    "userId": {
+      "type": "integer"
+    },
+    "ressenti": {
+      "type": "enumeration",
+      "enum": [
+        "Content",
+        "Ennuyé",
+        "Choqué",
+        "Triste",
+        "Amusé"
+      ]
+    }
+  }
+}
